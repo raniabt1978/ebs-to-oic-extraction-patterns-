@@ -35,11 +35,8 @@ ebs-to-oic-extraction-patterns/
 │
 ├── hcm/                                   # Human Capital Management Domain
 │   ├── queries/
-│   │   └── dept_salary_benchmarking.sql   # Source-level compute and feature extraction
-│   ├── oic_payload_samples/
-│   │   └── dept_salary_payload.json       # Flattened payload ready for OIC orchestration
-│   └── ai_feature_matrices/
-│       └── workforce_attrition_features.csv # Matrix formatted for Oracle AI consumption
+│      └── dept_salary_benchmarking.sql   # Source-level compute and feature extraction
+│ 
 │
 ├── fin/                                   # Financials Domain (Patterns Incoming)
 └── scm/                                   # Supply Chain Domain (Patterns Incoming)
